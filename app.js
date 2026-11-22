@@ -72,12 +72,23 @@ function result(l){
   return l.result === "ok" ? `<span class="res ok" title="tuntas">✓</span>` : `<span class="res" title="rep per set">${esc(l.result)}</span>`;
 }
 // Beban satu latihan: minggu ini (semua versi) → beban tetap siklus (versi siklus saja) → beban awal template.
+// Latihan pull-up (pullup: true) memakai tahap sekarang dari data/cycles.json bagian pullup,
+// dan beban mingguan dari id PULLUP_KEY (bantuan mesin assisted) di hari mana pun.
+const PULLUP_KEY = "pullup-skill";
+let PULLUP = null;
+function puStage(){
+  const st = (PULLUP && PULLUP.stages) || [];
+  const n = PULLUP ? PULLUP.stage || 1 : 0;
+  return st[n-1] ? {n, total:st.length, ...st[n-1]} : null;
+}
 function resolve(e, v, cycle, week){
-  const wl = week && week.loads && week.loads[e.id];
+  const key = e.pullup ? PULLUP_KEY : e.id;
+  const wl = week && week.loads && week.loads[key];
+  if (wl && e.pullup) return {text:kg(wl.kg) + " bantuan", sets: e.id === key || !wl.sets ? (wl.sets || e.sets) : wl.sets.replace(/^\d+/, (e.sets.match(/\d+/) || [""])[0]), note: e.id === key ? wl.note : "sama dengan Selasa", l: e.id === key ? wl : null, src:"week"};
   if (wl) return {text:kg(wl.kg), sets:wl.sets, note:wl.note, l:wl, src:"week"};
   // lift dengan beban mingguan yang belum ditulis minggu ini: jangan jatuh ke beban awal template
-  const prev = cycle && week ? cycle.weeks.filter(x=>x.i < week.i && x.loads && x.loads[e.id]).pop() : null;
-  if (prev) return {text: week.type === "deload" ? "Deload" : "Belum ditulis", note:`${weekShort(prev).toLowerCase()}: ${kg(prev.loads[e.id].kg)}`, src:"week"};
+  const prev = cycle && week ? cycle.weeks.filter(x=>x.i < week.i && x.loads && x.loads[key]).pop() : null;
+  if (prev) return {text: week.type === "deload" ? "Deload" : "Belum ditulis", note:`${weekShort(prev).toLowerCase()}: ${kg(prev.loads[key].kg)}`, src:"week"};
   const cl = cycle && cycle.version === v.id && cycle.loads && cycle.loads[e.id];
   if (cl) return {text:cl.load, sets:cl.target, as:cl.as, src:"cycle"};
   return {text:e.start, src:"start"};
@@ -297,7 +308,8 @@ function sessionCard(v, day, cycle, week, skipped){
   const upd = rows.some(x=>x.r.src !== "start");
   h += `<div class="tw"><table><thead><tr><th>Latihan</th><th>Set × Rep</th><th>Intensitas</th><th class="hm">Rest</th><th>${upd ? "Beban sekarang" : "Beban awal"}</th></tr></thead><tbody>`;
   for (const {e, r} of rows){
-    const name = esc(r.as || e.name) + (e.opt ? " <small>opsional</small>" : "") + (r.as ? `<small>${esc(e.name)}</small>` : "") + (e.ss ? `<span class="tag ss">superset</span>` : "");
+    const ps = e.pullup ? puStage() : null;
+    const name = (ps ? `${esc(ps.name)}<small>tangga pull-up, tahap ${ps.n} dari ${ps.total}</small>` : esc(r.as || e.name)) + (e.opt ? " <small>opsional</small>" : "") + (r.as ? `<small>${esc(e.name)}</small>` : "") + (e.ss ? `<span class="tag ss">superset</span>` : "");
     h += `<tr class="${e.main ? "lift" : ""}" style="${e.lift && e.main ? "--c:" + LIFT[e.lift] : ""}"><td>${e.main ? `<strong>${name}</strong>` : name}</td><td>${esc(r.sets || e.sets)}</td><td>${esc(week && week.type === "deload" && e.main ? "enteng" : e.int || "")}</td><td class="hm">${esc(e.rest || "")}</td><td class="${r.src !== "start" ? "upd" : ""}">${esc(r.text)}${result(r.l)}${r.note ? `<small>${esc(r.note)}</small>` : ""}</td></tr>`;
   }
   h += `</tbody></table></div>`;
@@ -376,7 +388,7 @@ async function show(key){
   try{
     if (key === "home" || key === "cycles" || key === "program"){
       const [P, C, B, md] = await Promise.all([load("program"), load("cycles"), key === "home" ? load("body") : null, key === "program" ? load("md:program") : null]);
-      setLifts(P);
+      setLifts(P); PULLUP = (C && C.pullup) || null;
       if (!P || !C){ view.innerHTML = '<p class="msg">data/program.json atau data/cycles.json tidak terbaca. Cek format JSON-nya.</p>'; return; }
       key === "home" ? renderHome(P, C, B) : key === "cycles" ? renderCycles(P, C) : renderProgram(P, C, md);
     } else if (key === "body"){

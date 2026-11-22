@@ -106,13 +106,14 @@
           "ex": [
             {
               "id": "pullup-skill",
-              "name": "Latihan Pull-up (sesuai tahap)",
+              "name": "Pull-up (sesuai tahap)",
               "lift": "P",
               "main": true,
               "sets": "3 set",
-              "int": "lihat tangga pull-up",
+              "int": "berat tapi aman",
               "rest": "2 mnt",
-              "start": "assisted 34 kg bantuan"
+              "start": "sesuai tahap",
+              "pullup": true
             },
             {
               "id": "sel-row",
@@ -269,12 +270,13 @@
           "ex": [
             {
               "id": "jum-pullup",
-              "name": "Latihan Pull-up (sesuai tahap)",
+              "name": "Pull-up (sesuai tahap)",
               "lift": "P",
               "sets": "2 set",
-              "int": "lihat tangga pull-up",
+              "int": "berat tapi aman",
               "rest": "2 mnt",
-              "start": "tahap di halaman Ringkas"
+              "start": "sesuai tahap",
+              "pullup": true
             },
             {
               "id": "lat-pulldown",
