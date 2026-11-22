@@ -12,6 +12,7 @@ Catatan supaya keputusan lama tidak diusulkan ulang tanpa alasan baru. Tambahkan
   - Upper A ditambah straight-arm pulldown dan pushdown dipasangkan dengan face pull sebagai superset supaya muat waktunya.
 - **Squat tetap bodyweight tempo dulu, lalu goblet squat.** Program lama fokus ke kontrol dan simetri squat. Syarat pindah ditulis jelas (3×12 stabil) supaya tidak berhenti di bodyweight selamanya.
 - **Back extension tetap opsional** dengan syarat yang sama seperti program lama: hanya kalau tidak muncul doming/coning atau keluhan pelvic floor.
+- **Diastasis recti pasca melahirkan, tanpa nyeri (22-11-2026): latihan beban tetap jalan, core dipilih yang tekanan perutnya rendah.** Dead bug dan Pallof press dipakai; sit-up, crunch, leg raise, V-up, dan plank lama tidak dipakai dulu. Kontrol napas dan cek doming jadi aturan tetap (detail di `program.md`). Disarankan sekali periksa ke fisioterapis women's health untuk batas yang spesifik; sampai ada hasilnya, aturan ini yang berlaku.
 - **Lift utama yang dicatat mingguan: hip thrust (Senin), RDL dumbbell (Senin), leg press (Kamis), lat pulldown (Jumat).** Empat lift ini mewakili glute, hamstring, quad, dan tarikan punggung. Aksesori cukup ditulis per siklus. Lebih sedikit dari ini membuat progres tidak terbaca; lebih banyak membuat log mingguan merepotkan.
 
 ## Siklus & progresi
@@ -22,7 +23,7 @@ Catatan supaya keputusan lama tidak diusulkan ulang tanpa alasan baru. Tambahkan
 
 ## Pull-up
 
-- **Target: 1 pull-up penuh tanpa bantuan, lalu 3×3.** Dilatih dengan tangga 6 tahap (dead hang → scapular pull-up → negative → assisted → pull-up pertama → 3×3) di `data/cycles.json`. Tahap awal diisi setelah tes pertama.
+- **Target: 1 pull-up penuh tanpa bantuan, lalu 3×3.** Dilatih dengan tangga 6 tahap (dead hang → scapular pull-up → negative → assisted → pull-up pertama → 3×3) di `data/cycles.json`. Tahap awal diisi setelah tes pertama. Gym punya mesin assisted pull-up, jadi tahap 4 memakai mesin, bukan band.
 - **Dilatih 2× seminggu di awal sesi upper**, bukan di malam hari seperti tambahan Syarif, supaya Nina tidak menambah hari latihan dan latihan pull-up dikerjakan saat segar.
 - **Turun berat badan ikut membantu pull-up.** Fat loss dan pull-up searah, jadi tidak perlu dipilih salah satu.
 

@@ -5,12 +5,26 @@
       "start": "2026-11-23",
       "version": "A",
       "weeks": [
-        {"type": "build", "note": "Minggu cari beban: di tiap latihan, naikkan beban sampai set terakhir terasa berat tapi aman di rentang rep yang ditulis. Catat beban dan rep-nya, itu jadi titik awal minggu 2."},
-        {"type": "build"},
-        {"type": "build"},
-        {"type": "build"},
-        {"type": "build"},
-        {"type": "deload", "note": "Set dipotong jadi 2 per latihan, beban sama tapi berhenti di enteng. Treadmill tetap. Tes pull-up di Selasa."}
+        {
+          "type": "build",
+          "note": "Minggu cari beban: di tiap latihan, naikkan beban sampai set terakhir terasa berat tapi aman di rentang rep yang ditulis. Catat beban dan rep-nya, itu jadi titik awal minggu 2."
+        },
+        {
+          "type": "build"
+        },
+        {
+          "type": "build"
+        },
+        {
+          "type": "build"
+        },
+        {
+          "type": "build"
+        },
+        {
+          "type": "deload",
+          "note": "Set dipotong jadi 2 per latihan, beban sama tapi berhenti di enteng. Treadmill tetap. Tes pull-up di Selasa."
+        }
       ],
       "loads": {},
       "notes": [
@@ -23,12 +37,36 @@
     "goal": "1 pull-up penuh tanpa bantuan, lalu 3×3",
     "stage": 1,
     "stages": [
-      {"name": "Dead hang", "do": "3× gantung selama mungkin, bahu aktif (tidak lemas sampai telinga)", "pass": "3× 30 detik"},
-      {"name": "Scapular pull-up", "do": "3×6–8: dari posisi gantung, tarik bahu ke bawah tanpa menekuk siku, tahan 2 detik", "pass": "3×8 rapi"},
-      {"name": "Negative pull-up", "do": "3×3: naik pakai bangku sampai dagu di atas bar, turun pelan 3–5 detik", "pass": "3×3 dengan turun 5 detik"},
-      {"name": "Assisted pull-up", "do": "3×5–8 pakai mesin assisted atau resistance band; kurangi bantuan setiap 3×8 tercapai", "pass": "3×5 dengan bantuan paling ringan"},
-      {"name": "Pull-up pertama", "do": "Tes 1 pull-up penuh di awal sesi, lalu lanjut negative 2×3", "pass": "1 rep penuh, dagu melewati bar"},
-      {"name": "Pull-up 3×3", "do": "3 set × rep sebanyak mungkin sampai 3, sisanya negative", "pass": "3×3"}
+      {
+        "name": "Dead hang",
+        "do": "3× gantung selama mungkin, bahu aktif (tidak lemas sampai telinga)",
+        "pass": "3× 30 detik"
+      },
+      {
+        "name": "Scapular pull-up",
+        "do": "3×6–8: dari posisi gantung, tarik bahu ke bawah tanpa menekuk siku, tahan 2 detik",
+        "pass": "3×8 rapi"
+      },
+      {
+        "name": "Negative pull-up",
+        "do": "3×3: naik pakai bangku sampai dagu di atas bar, turun pelan 3–5 detik",
+        "pass": "3×3 dengan turun 5 detik"
+      },
+      {
+        "name": "Assisted pull-up",
+        "do": "3×5–8 pakai mesin assisted pull-up; kurangi bantuan 1 pin setiap 3×8 tercapai",
+        "pass": "3×5 dengan bantuan ≤ ±15 kg"
+      },
+      {
+        "name": "Pull-up pertama",
+        "do": "Tes 1 pull-up penuh di awal sesi, lalu lanjut negative 2×3",
+        "pass": "1 rep penuh, dagu melewati bar"
+      },
+      {
+        "name": "Pull-up 3×3",
+        "do": "3 set × rep sebanyak mungkin sampai 3, sisanya negative",
+        "pass": "3×3"
+      }
     ],
     "tests": []
   }

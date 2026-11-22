@@ -55,10 +55,17 @@ Target: **1 pull-up penuh tanpa bantuan, lalu 3×3**. Tahap sekarang dan riwayat
 - 5 menit treadmill atau sepeda santai, lalu hip mobility dan glute bridge tanpa beban 1×15.
 - Lift utama pertama: 2 set pemanasan, misalnya hip thrust 50% × 10 → 75% × 5 → set kerja.
 
-## Core dan pelvic floor
+## Core, diastasis recti, dan pelvic floor
 
-- Core yang dipakai sengaja yang tekanan perutnya rendah: dead bug (Senin) dan Pallof press (Kamis). Napas keluar saat bagian terberat gerakan.
-- Kalau muncul perut menonjol di garis tengah (doming/coning), rasa berat atau bocor di pelvic floor, atau nyeri punggung bawah: hentikan gerakan itu dan ganti dengan versi lebih ringan. Kalau berulang, periksa ke fisioterapis (sebaiknya yang menangani women's health).
+Nina punya diastasis recti (otot perut tengah merenggang) sejak melahirkan, tanpa nyeri. Latihan beban tetap aman dan justru membantu, asal tekanan di perut dikelola:
+
+- **Napas:** buang napas saat bagian terberat gerakan (naik di hip thrust, dorong di leg press, tarik di pulldown). Jangan menahan napas lama di set berat.
+- **Core yang dipakai:** dead bug (Senin) dan Pallof press (Kamis), keduanya tekanan perutnya rendah. Dead bug mulai dari versi kaki menyentuh lantai bergantian (heel tap) kalau versi kaki lurus memunculkan doming.
+- **Yang tidak dipakai dulu:** sit-up, crunch, leg raise / hanging leg raise, V-up, Russian twist, dan plank lama. Gerakan ini paling sering membuat perut menonjol di garis tengah.
+- **Cek doming:** perut menonjol memanjang di garis tengah (doming/coning) saat gerakan. Kalau muncul: kurangi beban atau rentang gerak, atur napas, atau ganti gerakan. Ini juga berlaku saat dead hang dan negative pull-up: tulang rusuk turun, perut sedikit dikencangkan, jangan menggantung lemas sampai perut menonjol.
+- **Back extension** tetap opsional dan hanya kalau tidak memunculkan doming.
+- **Sinyal untuk berhenti dan periksa:** nyeri punggung bawah, rasa berat atau ada yang turun di area panggul, atau bocor saat batuk/angkat beban. Periksa ke fisioterapis women's health.
+- **Disarankan sekali periksa ke fisioterapis women's health** walau tidak ada keluhan, untuk mengukur renggangnya dan mendapat batas latihan yang spesifik. Hasilnya dicatat di `decisions.md`.
 
 ## Di luar sesi gym
 

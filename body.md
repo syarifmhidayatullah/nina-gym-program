@@ -34,11 +34,11 @@ Setelah 4 bulan: evaluasi dari scan. Kalau body fat sudah ±28%, pindah ke maint
 
 ## Cara mengukur
 
-- **Timbang:** pagi setelah bangun dan ke kamar mandi, sebelum makan dan minum. 3–4× seminggu; yang dibaca rata-rata mingguan.
+- **Timbang:** pagi setelah bangun dan buang air kecil, sebelum makan dan minum (kondisi sama dengan scan). 3–4× seminggu; yang dibaca rata-rata mingguan.
 - **Siklus haid:** berat bisa naik 1–2 kg (air) beberapa hari sebelum dan saat haid. Jangan ubah kalori karena minggu itu; bandingkan dengan minggu di fase yang sama bulan sebelumnya.
 - **Lingkar perut:** meteran kain setinggi pusar, pagi. Ini ukuran paling bisa dipercaya untuk lemak perut dan torso.
 - **Foto** tiap 2–4 minggu, kondisi dan pose sama (depan, samping, belakang untuk glute).
-- **Scan Evolt:** kondisi sama tiap kali: pagi setelah bangun, sudah ke kamar mandi, belum makan dan minum, sebaiknya di fase siklus haid yang sama. Berikutnya **±12 Desember 2026**.
+- **Scan Evolt:** kondisi standar Nina sama seperti scan 14-11: pagi setelah bangun, belum makan dan minum, sudah buang air kecil, belum BAB (memang tidak biasa BAB pagi). Yang penting kondisinya sama tiap kali, bukan harus sudah BAB. Sebaiknya juga di fase siklus haid yang sama. Berikutnya **±12 Desember 2026**.
 - **Noise alat ±0,3–0,5 kg.** Perubahan lean mass di bawah 0,5 kg jangan dianggap berarti.
 
 ## Riwayat scan Evolt 360

@@ -26,8 +26,8 @@ Aturan:
 
 - Prioritas: turunkan lemak (terutama torso) sambil menjaga otot → glute → pull-up. Ketiganya searah; jangan korbankan latihan beban demi kardio.
 - Latihan 06.00–07.30, maksimal 90 menit per sesi. Senin, Selasa, Kamis, Jumat, Sabtu; Rabu dan Minggu libur.
-- Gym yang sama dengan Syarif: leg press, hack squat, mesin hip thrust/Smith, chest-supported row, cable, dumbbell, hip abduction/adduction, pec deck, mesin shoulder press, lat pulldown, incline treadmill.
-- Ada kehati-hatian soal doming/coning perut dan pelvic floor (lihat `program.md`). Jangan menambah sit-up, crunch berat, atau latihan yang menahan napas berat tanpa mengecek ini dulu.
+- Gym yang sama dengan Syarif: leg press, hack squat, mesin hip thrust/Smith, mesin assisted pull-up, chest-supported row, cable, dumbbell, hip abduction/adduction, pec deck, mesin shoulder press, lat pulldown, incline treadmill.
+- Nina punya diastasis recti sejak melahirkan, tanpa nyeri (lihat `program.md` bagian core). Jangan menambah sit-up, crunch, leg raise, V-up, plank lama, atau latihan yang menahan napas berat. Setiap latihan baru dicek: apakah memunculkan doming.
 
 ## Cara menghitung dan menulis beban
 
@@ -45,7 +45,7 @@ Aturan:
 5. Pull-up: nilai apakah syarat lulus tahap sekarang tercapai; kalau dua sesi berturut-turut lulus, naikkan tahap.
 6. Kalau ada sinyal kelelahan (dua minggu tidak naik, lemas terus, nyeri sendi, doming atau keluhan pelvic floor), sarankan tahan beban, ganti variasi, atau deload lebih awal.
 
-**Review nutrisi dan komposisi tubuh.** Bandingkan rata-rata berat mingguan dan lingkar perut dengan aturan di `body.md`, lalu beri keputusan kalori yang konkret. Perhatikan siklus haid: kenaikan berat di minggu haid jangan dijadikan alasan mengubah kalori. Hasil scan hanya dibandingkan dengan scan berkondisi standar. Perubahan lean mass di bawah 0,5 kg dianggap noise.
+**Review nutrisi dan komposisi tubuh.** Bandingkan rata-rata berat mingguan dan lingkar perut dengan aturan di `body.md`, lalu beri keputusan kalori yang konkret. Perhatikan siklus haid: kenaikan berat di minggu haid jangan dijadikan alasan mengubah kalori. Hasil scan hanya dibandingkan dengan scan berkondisi standar (untuk Nina: pagi, belum makan & minum, sudah BAK, belum BAB). Perubahan lean mass di bawah 0,5 kg dianggap noise.
 
 **Pertanyaan latihan.** Jawab langsung dengan angka spesifik (set, rep, beban, hari). Kalau mengganti latihan, sebut di hari mana, beban awalnya, dan apa yang dikorbankan. Jaga total sesi tetap di bawah 90 menit.
 
