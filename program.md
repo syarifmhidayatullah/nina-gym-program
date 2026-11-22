@@ -19,12 +19,12 @@ File ini berisi aturan yang dipakai untuk menyusun angka-angka itu.
 ## Aturan progresi
 
 - **Double progression untuk semua latihan.** Tiap latihan punya rentang rep (misalnya 3×10–12). Mulai di rep bawah. Kalau semua set sudah mencapai rep teratas dengan teknik rapi dan set terakhir *berat tapi aman*, naikkan beban sesi berikutnya dan kembali ke rep bawah.
-- **Besar kenaikan:** hip thrust dan leg press +5 kg; RDL dan dumbbell lain +1–2 kg per tangan (dumbbell terdekat); mesin dan cable 1 pin. Kalau lompatan terlalu besar sampai rep jatuh di bawah rentang, tetap di beban lama dan tambah rep pelan-pelan.
+- **Besar kenaikan:** hip thrust dan leg press +5 kg; goblet squat +2 kg; RDL dan dumbbell lain +1–2 kg per tangan (dumbbell terdekat); mesin dan cable 1 pin. Kalau lompatan terlalu besar sampai rep jatuh di bawah rentang, tetap di beban lama dan tambah rep pelan-pelan.
 - **Rep turun sedikit di set akhir itu normal** (misalnya 12, 11, 10). Yang dihitung naik adalah ketika semua set sudah di angka teratas.
 - **Rep tidak bertambah 2 minggu berturut-turut** di lift utama: cek tidur dan makan dulu. Kalau keduanya cukup, turunkan beban 10% dan bangun lagi.
 - **Kalori defisit:** beban mungkin naik lebih pelan dibanding saat makan cukup; selama tidak turun, itu tandanya otot terjaga. Beban turun di beberapa lift sekaligus → lihat aturan di [body.md](body.md).
 - **Deload minggu 6:** semua latihan 2 set, beban sama tapi berhenti di *enteng*. Treadmill tetap. Minggu pertama siklus berikutnya lanjut dari beban minggu 5.
-- **Squat:** bodyweight dengan turun 3 detik sampai 3×12 stabil (lutut searah ujung kaki, berat rata di kedua kaki), lalu goblet squat mulai dumbbell 6–8 kg di 3×8.
+- **Squat:** goblet squat dengan turun 3 detik (per 22-11-2026 sudah 14 kg × 12). Naik 2 kg setelah 3×12 rapi: lutut searah ujung kaki, berat rata di kedua kaki, badan tidak miring.
 
 ## Skala effort
 

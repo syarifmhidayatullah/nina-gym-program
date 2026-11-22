@@ -18,7 +18,7 @@ Inti dari chat program latihan Nina: fat loss, glute, dan pull-up. Data harian (
 
 ## Cara pakai di Claude Project
 
-1. Di project **Nina Gym Progress**, tempel isi `project-instructions.md` (bagian di bawah garis) ke instruksi project.
+1. Di project **Nina Gym Progress**, tempel instruksi versi pendek dari `project-instructions.md` (atau versi lengkap: semua teks di bawah garis) ke instruksi project.
 2. Tidak perlu upload file. Tiap sesi meng-clone repo ini, membaca `data/*.json` dan file `.md`, lalu commit perubahannya langsung.
 3. Review: kirim log sesuai `log-template.md` (lift utama + rasa set terakhir: *enteng*, *berat tapi aman*, *mentok*).
 

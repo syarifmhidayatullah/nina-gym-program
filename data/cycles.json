@@ -7,7 +7,35 @@
       "weeks": [
         {
           "type": "build",
-          "note": "Minggu cari beban: di tiap latihan, naikkan beban sampai set terakhir terasa berat tapi aman di rentang rep yang ditulis. Catat beban dan rep-nya, itu jadi titik awal minggu 2."
+          "note": "Beban diambil dari log 16–21 Nov. Hampir semua latihan sudah di rep teratas, jadi minggu ini naik satu langkah. Rest ikuti kolom Rest supaya sesi tetap di bawah 90 menit.",
+          "loads": {
+            "hip-thrust": {
+              "kg": 10,
+              "sets": "4×8–12",
+              "note": "5 kg × 12 terlalu ringan; kalau set 1 enteng, tambah 5 kg lagi"
+            },
+            "db-rdl": {
+              "kg": 14,
+              "note": "12,5 kg sudah 3×12"
+            },
+            "pullup-skill": {
+              "kg": 30,
+              "sets": "3×6–8",
+              "note": "bantuan mesin assisted (makin kecil makin bagus); minggu lalu 34 kg × 12"
+            },
+            "squat": {
+              "kg": 16,
+              "note": "14 kg sudah 3×12"
+            },
+            "leg-press": {
+              "kg": 55,
+              "note": "50 kg sudah 3×12"
+            },
+            "lat-pulldown": {
+              "kg": 27,
+              "note": "23 kg sudah 4×15; pin berikutnya, target 10–12 rep"
+            }
+          }
         },
         {
           "type": "build"
@@ -26,16 +54,120 @@
           "note": "Set dipotong jadi 2 per latihan, beban sama tapi berhenti di enteng. Treadmill tetap. Tes pull-up di Selasa."
         }
       ],
-      "loads": {},
+      "loads": {
+        "sen-legpress": {
+          "load": "50 kg (kaki tinggi & lebar)",
+          "target": "3×10–12"
+        },
+        "sen-legcurl": {
+          "load": "pin berikutnya di atas 29 kg",
+          "target": "3×10–12"
+        },
+        "sen-abd": {
+          "load": "pin berikutnya di atas 36 kg",
+          "target": "3×15–20"
+        },
+        "sel-row": {
+          "load": "pin berikutnya di atas 23 kg",
+          "target": "3×10–12"
+        },
+        "sel-ohp": {
+          "load": "7,5 kg (tahan)",
+          "target": "3×12 dulu (minggu lalu 12, 11, 10)"
+        },
+        "sel-straight": {
+          "load": "cari: mulai ±14 kg",
+          "target": "2×12–15"
+        },
+        "sel-lateral": {
+          "load": "4 kg/tangan",
+          "target": "3×12–15"
+        },
+        "sel-facepull": {
+          "load": "pin berikutnya di atas 18 kg",
+          "target": "2×15"
+        },
+        "sel-pushdown": {
+          "load": "23 kg",
+          "target": "2×12–15 (18 kg sudah 20 rep)"
+        },
+        "kam-split": {
+          "as": "Bulgarian Split Squat",
+          "load": "bodyweight",
+          "target": "3×8–10 per kaki"
+        },
+        "kam-kickback": {
+          "load": "14 kg (tahan)",
+          "target": "2×15 dulu"
+        },
+        "kam-legext": {
+          "load": "pin berikutnya di atas 29 kg",
+          "target": "2×12–15"
+        },
+        "kam-calf": {
+          "load": "25 kg",
+          "target": "2×15"
+        },
+        "kam-add": {
+          "load": "pin berikutnya di atas 18 kg",
+          "target": "2×15–20"
+        },
+        "kam-pallof": {
+          "load": "cari: mulai ±5 kg",
+          "target": "2×10 per sisi"
+        },
+        "jum-bench": {
+          "load": "3,8 kg (tahan)",
+          "target": "3×12 dulu (minggu lalu 12, 10, 10)"
+        },
+        "jum-row": {
+          "load": "naik satu langkah dari 10 kg",
+          "target": "3×10–12"
+        },
+        "jum-lateral": {
+          "as": "Lateral Raise (cable atau dumbbell 4 kg)",
+          "load": "4 kg/tangan",
+          "target": "2×12–15"
+        },
+        "jum-pecdeck": {
+          "load": "32 kg (tahan)",
+          "target": "2×12 dulu"
+        },
+        "jum-curl": {
+          "load": "7 kg/tangan",
+          "target": "2×10–12"
+        },
+        "jum-pushdown": {
+          "load": "23 kg",
+          "target": "2×12–15"
+        },
+        "sab-hipthrust": {
+          "load": "beban Senin −5 kg",
+          "target": "3×12–15"
+        },
+        "sab-kickback": {
+          "load": "14 kg",
+          "target": "3×12–15 per kaki"
+        },
+        "sab-legcurl": {
+          "load": "pin berikutnya di atas 36 kg",
+          "target": "2×12–15"
+        },
+        "sab-abd": {
+          "load": "pin berikutnya di atas 36 kg",
+          "target": "3×15–20"
+        }
+      },
       "notes": [
-        "Siklus pertama di program ini, mulai fase fat loss. Beban mengikuti double progression (lihat program.md).",
+        "Siklus pertama di program ini, mulai fase fat loss. Titik awal beban dari log tracker 16–21 Nov. Beban mengikuti double progression (lihat program.md).",
+        "Minggu lalu sesi 81–97 menit dengan rest rata-rata ±3,5 menit. Dengan rest sesuai program (1–2 menit), sesi muat di 90 menit termasuk treadmill.",
         "Deload minggu 6 jatuh di 28 Des – 3 Jan, pas libur akhir tahun."
       ]
     }
   ],
   "pullup": {
     "goal": "1 pull-up penuh tanpa bantuan, lalu 3×3",
-    "stage": 1,
+    "stage": 4,
     "stages": [
       {
         "name": "Dead hang",
@@ -54,7 +186,7 @@
       },
       {
         "name": "Assisted pull-up",
-        "do": "3×5–8 pakai mesin assisted pull-up; kurangi bantuan 1 pin setiap 3×8 tercapai",
+        "do": "3×6–8 di mesin assisted pull-up; kurangi bantuan 1 pin setiap 3×8 tercapai. Tutup dengan 1 set negative 3 rep (turun 3–5 detik).",
         "pass": "3×5 dengan bantuan ≤ ±15 kg"
       },
       {
@@ -68,6 +200,12 @@
         "pass": "3×3"
       }
     ],
-    "tests": []
+    "tests": [
+      {
+        "date": "2026-11-17",
+        "result": "Assisted pull-up, bantuan 34 kg × 12, 2 set",
+        "note": "dari log tracker; tahap 1–3 dilewati. Dead hang dites Selasa untuk catatan."
+      }
+    ]
   }
 }

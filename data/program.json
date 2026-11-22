@@ -43,7 +43,7 @@
               "sets": "4×8–12",
               "int": "berat tapi aman",
               "rest": "2 mnt",
-              "start": "cari di sesi 1"
+              "start": "5 kg"
             },
             {
               "id": "db-rdl",
@@ -54,7 +54,7 @@
               "sets": "3×10–12",
               "int": "berat tapi aman",
               "rest": "2 mnt",
-              "start": "cari di sesi 1"
+              "start": "12,5 kg"
             },
             {
               "id": "sen-legpress",
@@ -62,7 +62,7 @@
               "sets": "3×10–12",
               "int": "RPE 8",
               "rest": "2 mnt",
-              "start": "cari di sesi 1"
+              "start": "50 kg"
             },
             {
               "id": "sen-legcurl",
@@ -70,7 +70,7 @@
               "sets": "3×10–12",
               "int": "RPE 8",
               "rest": "1–2 mnt",
-              "start": "cari di sesi 1"
+              "start": "29 kg"
             },
             {
               "id": "sen-abd",
@@ -78,7 +78,7 @@
               "sets": "3×15–20",
               "int": "RPE 8–9",
               "rest": "1 mnt",
-              "start": "cari di sesi 1"
+              "start": "36 kg"
             },
             {
               "id": "sen-deadbug",
@@ -112,7 +112,7 @@
               "sets": "3 set",
               "int": "lihat tangga pull-up",
               "rest": "2 mnt",
-              "start": "tahap di halaman Ringkas"
+              "start": "assisted 34 kg bantuan"
             },
             {
               "id": "sel-row",
@@ -120,7 +120,7 @@
               "sets": "3×10–12",
               "int": "RPE 8",
               "rest": "2 mnt",
-              "start": "cari di sesi 1"
+              "start": "23 kg"
             },
             {
               "id": "sel-ohp",
@@ -128,7 +128,7 @@
               "sets": "3×8–12",
               "int": "RPE 8",
               "rest": "2 mnt",
-              "start": "cari di sesi 1"
+              "start": "7,5 kg"
             },
             {
               "id": "sel-straight",
@@ -144,7 +144,7 @@
               "sets": "3×12–15",
               "int": "RPE 8–9",
               "rest": "1 mnt",
-              "start": "cari di sesi 1"
+              "start": "3 kg/tangan"
             },
             {
               "id": "sel-facepull",
@@ -153,7 +153,7 @@
               "sets": "2×15",
               "int": "RPE 8",
               "rest": "1 mnt",
-              "start": "cari di sesi 1"
+              "start": "18 kg"
             },
             {
               "id": "sel-pushdown",
@@ -162,7 +162,7 @@
               "sets": "2×12–15",
               "int": "RPE 8",
               "rest": "1 mnt",
-              "start": "cari di sesi 1"
+              "start": "18 kg"
             },
             {
               "id": "sel-tread",
@@ -182,13 +182,13 @@
           "ex": [
             {
               "id": "squat",
-              "name": "Squat tempo → Goblet Squat",
+              "name": "Goblet Squat (turun 3 detik)",
               "lift": "Q",
               "main": true,
               "sets": "3×8–12",
               "int": "turun 3 detik",
               "rest": "2 mnt",
-              "start": "bodyweight"
+              "start": "14 kg"
             },
             {
               "id": "leg-press",
@@ -199,15 +199,15 @@
               "sets": "3×10–12",
               "int": "berat tapi aman",
               "rest": "2 mnt",
-              "start": "cari di sesi 1"
+              "start": "50 kg"
             },
             {
               "id": "kam-split",
-              "name": "Supported Split Squat",
+              "name": "Bulgarian Split Squat",
               "sets": "3×8–10 per kaki",
               "int": "RPE 8",
               "rest": "1–2 mnt",
-              "start": "bodyweight, pegangan rack"
+              "start": "bodyweight"
             },
             {
               "id": "kam-kickback",
@@ -216,7 +216,7 @@
               "sets": "2×12–15 per kaki",
               "int": "RPE 8–9",
               "rest": "1 mnt",
-              "start": "cari di sesi 1"
+              "start": "14 kg"
             },
             {
               "id": "kam-legext",
@@ -224,7 +224,7 @@
               "sets": "2×12–15",
               "int": "RPE 8–9",
               "rest": "1 mnt",
-              "start": "cari di sesi 1"
+              "start": "29 kg"
             },
             {
               "id": "kam-calf",
@@ -232,7 +232,16 @@
               "sets": "2×15",
               "int": "RPE 8",
               "rest": "1 mnt",
-              "start": "cari di sesi 1"
+              "start": "20 kg"
+            },
+            {
+              "id": "kam-add",
+              "name": "Hip Adduction",
+              "opt": true,
+              "sets": "2×15–20",
+              "int": "RPE 8",
+              "rest": "1 mnt",
+              "start": "18 kg"
             },
             {
               "id": "kam-pallof",
@@ -251,7 +260,7 @@
               "start": "incline 8–10%"
             }
           ],
-          "note": "Squat tetap bodyweight dengan turun 3 detik sampai 3×12 terasa stabil (lutut searah ujung kaki, berat rata di kedua kaki), baru pindah ke goblet squat dumbbell 6–8 kg dan mulai lagi dari 3×8. Split squat boleh berpegangan pada rack."
+          "note": "Squat: turun 3 detik, lutut searah ujung kaki, berat rata di kedua kaki. Kalau badan miring ke satu sisi atau lutut masuk ke dalam, turunkan beban dulu. Bulgarian split squat boleh berpegangan pada rack; setelah 3×10 per kaki rapi, pegang dumbbell 3–4 kg di tangan yang bebas."
         },
         {
           "day": "Jumat",
@@ -276,7 +285,7 @@
               "sets": "3×8–12",
               "int": "berat tapi aman",
               "rest": "2 mnt",
-              "start": "cari di sesi 1"
+              "start": "23 kg"
             },
             {
               "id": "jum-bench",
@@ -284,7 +293,7 @@
               "sets": "3×8–12",
               "int": "RPE 8",
               "rest": "2 mnt",
-              "start": "cari di sesi 1"
+              "start": "3,8 kg"
             },
             {
               "id": "jum-row",
@@ -292,7 +301,7 @@
               "sets": "3×10–12",
               "int": "RPE 8",
               "rest": "2 mnt",
-              "start": "cari di sesi 1"
+              "start": "10 kg"
             },
             {
               "id": "jum-lateral",
@@ -300,7 +309,7 @@
               "sets": "2×12–15",
               "int": "RPE 8–9",
               "rest": "1 mnt",
-              "start": "cari di sesi 1"
+              "start": "3 kg/tangan (dumbbell)"
             },
             {
               "id": "jum-pecdeck",
@@ -308,7 +317,7 @@
               "sets": "2×12–15",
               "int": "RPE 8–9",
               "rest": "1 mnt",
-              "start": "cari di sesi 1"
+              "start": "32 kg"
             },
             {
               "id": "jum-curl",
@@ -317,7 +326,7 @@
               "sets": "2×10–12",
               "int": "RPE 8–9",
               "rest": "1 mnt",
-              "start": "cari di sesi 1"
+              "start": "6 kg/tangan"
             },
             {
               "id": "jum-pushdown",
@@ -326,7 +335,7 @@
               "sets": "2×12–15",
               "int": "RPE 8–9",
               "rest": "1 mnt",
-              "start": "cari di sesi 1"
+              "start": "18 kg"
             },
             {
               "id": "jum-tread",
@@ -352,7 +361,7 @@
               "sets": "3×12–15",
               "int": "berat tapi aman",
               "rest": "2 mnt",
-              "start": "±80% beban Senin"
+              "start": "beban Senin −5 kg"
             },
             {
               "id": "sab-kickback",
@@ -360,7 +369,7 @@
               "sets": "3×12–15 per kaki",
               "int": "RPE 8–9",
               "rest": "1 mnt",
-              "start": "beban Kamis"
+              "start": "14 kg"
             },
             {
               "id": "sab-backext",
@@ -377,7 +386,7 @@
               "sets": "2×12–15",
               "int": "RPE 8–9",
               "rest": "1 mnt",
-              "start": "beban Senin"
+              "start": "36 kg"
             },
             {
               "id": "sab-abd",
@@ -385,7 +394,7 @@
               "sets": "3×15–20",
               "int": "RPE 9",
               "rest": "1 mnt",
-              "start": "beban Senin"
+              "start": "36 kg"
             },
             {
               "id": "sab-tread",
