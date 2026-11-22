@@ -12,11 +12,11 @@
             "hip-thrust": {
               "kg": 10,
               "sets": "4×8–12",
-              "note": "5 kg × 12 terlalu ringan; kalau set 1 enteng, tambah 5 kg lagi"
+              "note": "total 5 kg × 12 terlalu ringan; kalau set 1 enteng, tambah 5 kg lagi"
             },
             "db-rdl": {
               "kg": 14,
-              "note": "12,5 kg sudah 3×12"
+              "note": "per tangan; 12,5 kg/tangan sudah 3×12"
             },
             "pullup-skill": {
               "kg": 30,
@@ -72,7 +72,7 @@
           "target": "3×10–12"
         },
         "sel-ohp": {
-          "load": "7,5 kg (tahan)",
+          "load": "7,5 kg/tangan (tahan)",
           "target": "3×12 dulu (minggu lalu 12, 11, 10)"
         },
         "sel-straight": {
@@ -117,8 +117,8 @@
           "target": "2×10 per sisi"
         },
         "jum-bench": {
-          "load": "3,8 kg (tahan)",
-          "target": "3×12 dulu (minggu lalu 12, 10, 10)"
+          "load": "3,75 kg per sisi (tahan)",
+          "target": "3×12 dulu (minggu lalu 12, 10, 10); setelah itu 5 kg per sisi"
         },
         "jum-row": {
           "load": "naik satu langkah dari 10 kg",

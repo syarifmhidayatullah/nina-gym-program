@@ -44,7 +44,7 @@ Aturan:
 ## Cara menghitung dan menulis beban
 
 - Double progression: naik beban setelah semua set mencapai rep teratas, lalu kembali ke rep bawah. Besar kenaikan ada di `program.md`.
-- Dumbbell selalu ditulis per tangan. Beban mesin yang berbeda (leg press Senin kaki tinggi vs Kamis kaki sejajar, mesin vs Smith hip thrust) dicatat terpisah; angkanya tidak sebanding.
+- Dumbbell selalu ditulis per tangan (RDL, shoulder press, biceps curl, lateral raise). Smith bench ditulis plate per sisi, tanpa berat bar. Beban mesin, cable, leg press, dan hip thrust = total yang tertulis di mesin/tracker. Beban mesin yang berbeda (leg press Senin kaki tinggi vs Kamis kaki sejajar, mesin vs Smith hip thrust) dicatat terpisah; angkanya tidak sebanding.
 - Effort memakai skala 3 kategori, bukan RPE: **enteng** (≈RPE 6–7), **berat tapi aman** (≈RPE 8–9), **mentok** (RPE 10). Target set terakhir lift utama *berat tapi aman*. Squat, split squat, dan RDL tidak pernah sampai gagal; aksesori mesin/isolasi boleh di set terakhir.
 
 ## Alur kerja

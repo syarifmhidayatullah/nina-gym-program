@@ -54,7 +54,7 @@
               "sets": "3×10–12",
               "int": "berat tapi aman",
               "rest": "2 mnt",
-              "start": "12,5 kg"
+              "start": "12,5 kg/tangan"
             },
             {
               "id": "sen-legpress",
@@ -124,11 +124,11 @@
             },
             {
               "id": "sel-ohp",
-              "name": "Machine Shoulder Press",
+              "name": "Dumbbell Shoulder Press",
               "sets": "3×8–12",
               "int": "RPE 8",
               "rest": "2 mnt",
-              "start": "7,5 kg"
+              "start": "7,5 kg/tangan"
             },
             {
               "id": "sel-straight",
@@ -293,7 +293,7 @@
               "sets": "3×8–12",
               "int": "RPE 8",
               "rest": "2 mnt",
-              "start": "3,8 kg"
+              "start": "3,75 kg per sisi"
             },
             {
               "id": "jum-row",
