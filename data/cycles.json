@@ -15,8 +15,9 @@
               "note": "total 5 kg × 12 terlalu ringan; kalau set 1 enteng, tambah 5 kg lagi"
             },
             "db-rdl": {
-              "kg": 14,
-              "note": "per tangan; 12,5 kg/tangan sudah 3×12"
+              "kg": 15,
+              "sets": "3×8–12",
+              "note": "per tangan; dumbbell naik 12,5 → 15 kg, jadi mulai di 8 rep lalu tambah rep sampai 3×12. Kalau 8 rep belum bisa dengan punggung rata, kembali ke 12,5 kg dengan turun 3 detik."
             },
             "pullup-skill": {
               "kg": 30,
