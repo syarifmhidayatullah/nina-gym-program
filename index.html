@@ -3,10 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>Program Gym Nina</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<script>
+/* Tema: default terang, apa pun setting HP. Pilihan disimpan di browser. */
+(function(){ var t = "light"; try{ t = localStorage.getItem("nina-theme") || "light"; }catch(e){} document.documentElement.dataset.theme = t; })();
+</script>
 <script defer src="vendor/marked.min.js"></script>
 <style>
 :root{
@@ -195,6 +200,9 @@ details.alt > summary .tag{margin-left:4px}
 .card.pu small{color:var(--muted)}
 h2{color:var(--accent)}
 .top{background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px)}
+footer.theme{max-width:800px;margin:-56px auto 0;padding:0 16px 40px;text-align:center}
+footer.theme button{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:.85rem;color:var(--muted);cursor:pointer}
+footer.theme button:hover{border-color:var(--accent);color:var(--accent)}
 </style>
 </head>
 <body>
@@ -209,6 +217,20 @@ h2{color:var(--accent)}
   </nav>
 </div></header>
 <main id="view" role="tabpanel" aria-live="polite"><p class="msg">Memuat…</p></main>
+<footer class="theme"><button id="theme-btn" type="button"></button></footer>
+<script>
+(function(){
+  var b = document.getElementById("theme-btn");
+  function label(){ b.textContent = document.documentElement.dataset.theme === "dark" ? "☀︎ Ganti ke tema terang" : "☾ Ganti ke tema gelap"; }
+  b.addEventListener("click", function(){
+    var t = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = t;
+    try{ localStorage.setItem("nina-theme", t); }catch(e){}
+    label();
+  });
+  label();
+})();
+</script>
 <script defer src="app.js"></script>
 </body>
 </html>

@@ -30,4 +30,6 @@ Minggu sekarang dihitung dari tanggal `start` tiap siklus di `data/cycles.json`.
 
 Bedanya dengan halaman Syarif: kategori lift utama dan warnanya diambil dari `lifts` di `data/program.json` (bukan Squat/Bench/Deadlift tetap), progres ditampilkan sebagai grafik beban lift utama (bukan e1RM), ada tangga pull-up, dan bagian tubuh menampilkan progres menuju target fat loss.
 
+Tema default terang (pink) walaupun HP memakai dark mode; tombol di bawah halaman mengganti ke tema gelap, dan pilihannya disimpan di browser.
+
 Sebelum commit, jalankan `python3 tools/check_data.py`.
