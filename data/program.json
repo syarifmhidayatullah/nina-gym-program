@@ -1,0 +1,101 @@
+{
+  "_doc": "Template program per versi. Beban di sini adalah beban AWAL; beban berjalan ada di cycles.json. id latihan unik per versi. lifts: kategori lift utama (warna titik di jadwal dan kartu). Per latihan: lift = kategori, main = baris tebal + titik di jadwal, heavy = kartu besar di Ringkas dan grafik progres, ss = bagian superset, opt = opsional.",
+  "default": "A",
+  "lifts": {
+    "G": {"name": "Glute", "color": "var(--glute)"},
+    "H": {"name": "Hamstring", "color": "var(--hinge)"},
+    "Q": {"name": "Quad", "color": "var(--quad)"},
+    "P": {"name": "Punggung & pull-up", "color": "var(--pull)"}
+  },
+  "versions": [
+    {
+      "id": "A",
+      "name": "Lower/Upper + hari glute",
+      "freq": "Glute 4× (hip thrust 2×) · Hamstring 3× · Quad 2× · Punggung 2× · Pull-up latihan 2× per minggu. Rabu & Minggu libur. Maksimal 90 menit per sesi termasuk pemanasan dan treadmill.",
+      "notes": [
+        "Lift utama (baris tebal) dicatat beban dan rasanya tiap minggu; aksesori cukup beban × rep.",
+        "Incline treadmill selalu di akhir sesi, zona 2: napas lebih cepat tapi masih bisa ngobrol."
+      ],
+      "days": [
+        {
+          "day": "Senin",
+          "name": "Lower A",
+          "focus": "glute & hamstring",
+          "ex": [
+            {"id": "hip-thrust", "name": "Hip Thrust (mesin/Smith)", "lift": "G", "main": true, "heavy": true, "sets": "4×8–12", "int": "berat tapi aman", "rest": "2 mnt", "start": "cari di sesi 1"},
+            {"id": "db-rdl", "name": "Dumbbell Romanian Deadlift", "lift": "H", "main": true, "heavy": true, "sets": "3×10–12", "int": "berat tapi aman", "rest": "2 mnt", "start": "cari di sesi 1"},
+            {"id": "sen-legpress", "name": "Leg Press (kaki tinggi & lebar)", "sets": "3×10–12", "int": "RPE 8", "rest": "2 mnt", "start": "cari di sesi 1"},
+            {"id": "sen-legcurl", "name": "Seated/Lying Leg Curl", "sets": "3×10–12", "int": "RPE 8", "rest": "1–2 mnt", "start": "cari di sesi 1"},
+            {"id": "sen-abd", "name": "Hip Abduction", "sets": "3×15–20", "int": "RPE 8–9", "rest": "1 mnt", "start": "cari di sesi 1"},
+            {"id": "sen-deadbug", "name": "Dead Bug", "sets": "2×8 per sisi", "int": "pelan, punggung bawah menempel", "rest": "45 dtk", "start": "bodyweight"},
+            {"id": "sen-tread", "name": "Incline Treadmill", "sets": "15–20 mnt", "int": "zona 2", "rest": "", "start": "incline 8–10%, 4–5 km/jam"}
+          ],
+          "note": "Hip thrust: tahan 1–2 detik di atas, dagu menunduk, tulang rusuk turun; jangan melengkungkan pinggang untuk naik lebih tinggi. Leg press di sini posisi kaki tinggi dan lebar supaya glute lebih kena; catat terpisah dari leg press Kamis."
+        },
+        {
+          "day": "Selasa",
+          "name": "Upper A",
+          "focus": "punggung, bahu, latihan pull-up",
+          "ex": [
+            {"id": "pullup-skill", "name": "Latihan Pull-up (sesuai tahap)", "lift": "P", "main": true, "sets": "3 set", "int": "lihat tangga pull-up", "rest": "2 mnt", "start": "tahap di halaman Ringkas"},
+            {"id": "sel-row", "name": "Seated Cable Row", "sets": "3×10–12", "int": "RPE 8", "rest": "2 mnt", "start": "cari di sesi 1"},
+            {"id": "sel-ohp", "name": "Machine Shoulder Press", "sets": "3×8–12", "int": "RPE 8", "rest": "2 mnt", "start": "cari di sesi 1"},
+            {"id": "sel-straight", "name": "Straight-Arm Pulldown (cable)", "sets": "2×12–15", "int": "RPE 8", "rest": "1 mnt", "start": "cari di sesi 1"},
+            {"id": "sel-lateral", "name": "Dumbbell Lateral Raise", "sets": "3×12–15", "int": "RPE 8–9", "rest": "1 mnt", "start": "cari di sesi 1"},
+            {"id": "sel-facepull", "name": "Face Pull", "ss": true, "sets": "2×15", "int": "RPE 8", "rest": "1 mnt", "start": "cari di sesi 1"},
+            {"id": "sel-pushdown", "name": "Triceps Pushdown", "ss": true, "sets": "2×12–15", "int": "RPE 8", "rest": "1 mnt", "start": "cari di sesi 1"},
+            {"id": "sel-tread", "name": "Incline Treadmill", "sets": "15 mnt", "int": "zona 2", "rest": "", "start": "incline 8–10%"}
+          ],
+          "note": "Latihan pull-up dikerjakan paling awal selagi segar. Straight-arm pulldown melatih lat dengan lengan lurus, gerakan yang paling langsung membantu pull-up."
+        },
+        {
+          "day": "Kamis",
+          "name": "Lower B",
+          "focus": "quad & glute",
+          "ex": [
+            {"id": "squat", "name": "Squat tempo → Goblet Squat", "lift": "Q", "main": true, "sets": "3×8–12", "int": "turun 3 detik", "rest": "2 mnt", "start": "bodyweight"},
+            {"id": "leg-press", "name": "Leg Press (kaki sejajar bahu)", "lift": "Q", "main": true, "heavy": true, "sets": "3×10–12", "int": "berat tapi aman", "rest": "2 mnt", "start": "cari di sesi 1"},
+            {"id": "kam-split", "name": "Supported Split Squat", "sets": "3×8–10 per kaki", "int": "RPE 8", "rest": "1–2 mnt", "start": "bodyweight, pegangan rack"},
+            {"id": "kam-kickback", "name": "Cable Glute Kickback", "lift": "G", "sets": "2×12–15 per kaki", "int": "RPE 8–9", "rest": "1 mnt", "start": "cari di sesi 1"},
+            {"id": "kam-legext", "name": "Leg Extension", "sets": "2×12–15", "int": "RPE 8–9", "rest": "1 mnt", "start": "cari di sesi 1"},
+            {"id": "kam-calf", "name": "Calf Raise", "sets": "2×15", "int": "RPE 8", "rest": "1 mnt", "start": "cari di sesi 1"},
+            {"id": "kam-pallof", "name": "Pallof Press", "sets": "2×10 per sisi", "int": "tahan 2 detik", "rest": "45 dtk", "start": "cari di sesi 1"},
+            {"id": "kam-tread", "name": "Incline Treadmill", "sets": "15 mnt", "int": "zona 2", "rest": "", "start": "incline 8–10%"}
+          ],
+          "note": "Squat tetap bodyweight dengan turun 3 detik sampai 3×12 terasa stabil (lutut searah ujung kaki, berat rata di kedua kaki), baru pindah ke goblet squat dumbbell 6–8 kg dan mulai lagi dari 3×8. Split squat boleh berpegangan pada rack."
+        },
+        {
+          "day": "Jumat",
+          "name": "Upper B",
+          "focus": "dada, punggung, lengan",
+          "ex": [
+            {"id": "jum-pullup", "name": "Latihan Pull-up (sesuai tahap)", "lift": "P", "sets": "2 set", "int": "lihat tangga pull-up", "rest": "2 mnt", "start": "tahap di halaman Ringkas"},
+            {"id": "lat-pulldown", "name": "Lat Pulldown", "lift": "P", "main": true, "heavy": true, "sets": "3×8–12", "int": "berat tapi aman", "rest": "2 mnt", "start": "cari di sesi 1"},
+            {"id": "jum-bench", "name": "Smith Machine Bench Press", "sets": "3×8–12", "int": "RPE 8", "rest": "2 mnt", "start": "cari di sesi 1"},
+            {"id": "jum-row", "name": "Chest-Supported Row", "sets": "3×10–12", "int": "RPE 8", "rest": "2 mnt", "start": "cari di sesi 1"},
+            {"id": "jum-lateral", "name": "Cable Lateral Raise", "sets": "2×12–15", "int": "RPE 8–9", "rest": "1 mnt", "start": "cari di sesi 1"},
+            {"id": "jum-pecdeck", "name": "Pec Deck", "sets": "2×12–15", "int": "RPE 8–9", "rest": "1 mnt", "start": "cari di sesi 1"},
+            {"id": "jum-curl", "name": "Biceps Curl", "ss": true, "sets": "2×10–12", "int": "RPE 8–9", "rest": "1 mnt", "start": "cari di sesi 1"},
+            {"id": "jum-pushdown", "name": "Triceps Pushdown", "ss": true, "sets": "2×12–15", "int": "RPE 8–9", "rest": "1 mnt", "start": "cari di sesi 1"},
+            {"id": "jum-tread", "name": "Incline Treadmill", "sets": "10 mnt", "int": "zona 2", "rest": "", "start": "incline 8–10%"}
+          ],
+          "note": "Biceps curl melatih otot yang juga menarik di pull-up, jadi jangan dilewat. Kalau waktu mepet, yang dipotong dulu: pec deck → cable lateral raise."
+        },
+        {
+          "day": "Sabtu",
+          "name": "Glutes & Conditioning",
+          "focus": "glute tambahan & kardio",
+          "ex": [
+            {"id": "sab-hipthrust", "name": "Hip Thrust (pause 2 detik di atas)", "lift": "G", "main": true, "sets": "3×12–15", "int": "berat tapi aman", "rest": "2 mnt", "start": "±80% beban Senin"},
+            {"id": "sab-kickback", "name": "Cable Glute Kickback", "sets": "3×12–15 per kaki", "int": "RPE 8–9", "rest": "1 mnt", "start": "beban Kamis"},
+            {"id": "sab-backext", "name": "45° Back Extension (punggung membulat, fokus glute)", "opt": true, "sets": "2×10–12", "int": "RPE 8", "rest": "1–2 mnt", "start": "bodyweight"},
+            {"id": "sab-legcurl", "name": "Leg Curl", "sets": "2×12–15", "int": "RPE 8–9", "rest": "1 mnt", "start": "beban Senin"},
+            {"id": "sab-abd", "name": "Hip Abduction", "sets": "3×15–20", "int": "RPE 9", "rest": "1 mnt", "start": "beban Senin"},
+            {"id": "sab-tread", "name": "Incline Treadmill", "sets": "25–30 mnt", "int": "zona 2", "rest": "", "start": "incline 10–12%"}
+          ],
+          "note": "Back extension hanya kalau tidak muncul perut menonjol di garis tengah (doming/coning) atau keluhan pelvic floor; kalau muncul, lewati dulu. Ini sesi terpanjang kardionya, jadi angkatnya dibuat ringkas."
+        }
+      ]
+    }
+  ]
+}

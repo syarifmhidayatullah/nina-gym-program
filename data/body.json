@@ -1,0 +1,11 @@
+{
+  "_doc": "Angka tubuh & nutrisi yang ditampilkan halaman. Penjelasan dan aturan ada di body.md. scans urut tanggal; standard = kondisi standar (pagi, belum makan/minum, setelah ke kamar mandi), hanya scan standar yang dibandingkan; baseline = titik pembanding. phase.targets: target akhir fase (berat kg, bf %, waist cm), ditampilkan sebagai progres dari baseline.",
+  "nutrition": {"kcal": 1700, "since": "2026-11-23", "protein": "120–130 g", "fat": "50–60 g", "carbs": "±160–180 g", "maintenance": 2000},
+  "phase": {"name": "Fat loss", "start": "2026-11-23", "months": 4, "targets": {"weight": 60, "bf": 28, "waist": 77}},
+  "next_scan": "2026-12-12",
+  "scans": [
+    {"date": "2026-11-14", "time": "05:09", "cond": "Pagi (baseline)", "standard": true, "baseline": true,
+     "weight": 64.7, "lean": 43.2, "smm": 23.7, "fat": 21.5, "bf": 33.2, "waist": 81.2, "tee": 2006, "visceral": 10,
+     "note": "Lean mass dan otot rangka di rentang optimal, jadi tidak perlu 'membangun dulu': yang perlu turun lemaknya. Lemak tubuh 21,5 kg (rentang 11,1–16,7), visceral fat level 10 (di atas rentang), lemak torso 11,44 kg (rentang 6,37–9,55) sementara lemak lengan dan kaki hanya sedikit di atas rentang. Rasio pinggang-pinggul 0,82 optimal. BMR 1303 kkal, TEE 2006 kkal. Kondisi puasa belum dikonfirmasi."}
+  ]
+}
